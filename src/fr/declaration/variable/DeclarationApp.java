@@ -13,10 +13,21 @@ public class DeclarationApp {
 		double f = 3.6D;
 		char g = 'r';
 		boolean h = true;
+		int j = 053;
 		String randomString = "Voici le résultat d’un calcul :\n 1+5=6";
+		
+		int k = 0;
+		int l = 1;
+		a++;
+		if (k==1 && l==1){
+		System.out.println("Vrai");
+		}
+		else {
+		System.out.println("Faux");
+		}
 
-		System.out.println(a);
-		System.out.println(randomString);
+		System.out.println(l);
+		System.out.println(k);
 	}
 
 }
